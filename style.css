@@ -1,0 +1,20 @@
+p{
+    font-size: 2em;
+    font-weight: 500;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+    from {
+      margin-top: 80%;
+      height: 300%
+    }
+  
+    to {
+      margin-top: 0%;
+      height: 100%;
+    }
+  }
+  
